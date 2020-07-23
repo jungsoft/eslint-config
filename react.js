@@ -1,6 +1,6 @@
 const javascript = require("./javascript.js");
 
-module.exports = {
+const reactConfig = {
   extends: [
     javascript,
     "plugin:react-hooks/recommended",
@@ -52,3 +52,5 @@ module.exports = {
     "jsx-a11y/media-has-caption": "off",
   }
 }
+
+export default reactConfig;

@@ -1,7 +1,4 @@
-const javascript = require('./javascript');
-const react = require('./react');
+import javascript from "./javascript.js";
+import react from "./react.js";
 
-module.exports = {
-  javascript,
-  react
-}
+export { javascript as default, react }
