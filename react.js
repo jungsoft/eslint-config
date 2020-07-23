@@ -1,6 +1,6 @@
 const main = require("./index")
 
-const reactConfig = {
+module.exports = {
   extends: [
     main,
     "plugin:react-hooks/recommended",
@@ -52,5 +52,3 @@ const reactConfig = {
     "jsx-a11y/media-has-caption": "off",
   }
 }
-
-export default reactConfig;
