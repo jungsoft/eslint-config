@@ -1,6 +1,4 @@
-const isCI = process.env.CI;
-
-const javascriptConfig = {
+module.exports = {
   parser: "babel-eslint",
   extends: [
     "airbnb"
@@ -32,5 +30,3 @@ const javascriptConfig = {
     "no-multiple-empty-lines": [2, { max: 1 }],
   }
 }
-
-export default javascriptConfig;

@@ -11,12 +11,12 @@
     "eslintconfig",
     "jungsoft"
   ],
-  "main": "build/index.js",
-  "module": "build/index.es.js",
+  "main": "index.js",
   "scripts": {
-    "build": "rollup -c",
     "bump": "npm version",
-    "prepublishOnly": "yarn build"
+    "update-patch": "npm version patch",
+    "update-minor": "npm version minor",
+    "update-major": "npm version major"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
@@ -24,14 +24,5 @@
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-react-hooks": "^4.0.8"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@rollup/plugin-commonjs": "^14.0.0",
-    "@rollup/plugin-node-resolve": "^8.4.0",
-    "rollup": "^2.22.2",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-peer-deps-external": "^2.2.3"
   }
 }

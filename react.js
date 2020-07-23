@@ -1,8 +1,8 @@
-const javascript = require("./javascript.js");
+const main = require("./index")
 
 const reactConfig = {
   extends: [
-    javascript,
+    main,
     "plugin:react-hooks/recommended",
   ],
   env: {
