@@ -2,16 +2,12 @@ const isCI = process.env.CI;
 
 module.exports = {
   parser: "babel-eslint",
-  extends: [
-    "airbnb"
-  ],
   rules: {
     "space-before-function-paren": 0,
     quotes: [2, "double", "avoid-escape"],
     indent: ["error", 2, { SwitchCase: 1 }],
     "no-unused-vars": isCI ? ["error", { argsIgnorePattern: "^_" }] : 1,
     "no-console": isCI ? 2 : 1,
-    "space-before-function-paren": 0,
     "arrow-parens": 0,
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
     "import/prefer-default-export": 0,
@@ -30,5 +26,5 @@ module.exports = {
       ],
     }],
     "no-multiple-empty-lines": [2, { max: 1 }],
-  }
-}
+  },
+};
