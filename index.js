@@ -1,3 +1,5 @@
+const isCI = process.env.CI;
+
 module.exports = {
   parser: "babel-eslint",
   extends: [
