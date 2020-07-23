@@ -28,7 +28,7 @@ module.exports = {
   ],
 ```
 
-And you also can override/add rules according to your needs 
+And you can also override/add rules according to your needs 
 
 ```
 module.exports = {
