@@ -1,10 +1,10 @@
-<img src="https://jungsoft.io/static/media/jungsoft_logo.c44eaf52.png" width="300px"/>
+<img src="logo" width="300px"/>
 
-# Eslint Config Jungsoft 
+# Eslint Config Jungsoft
 
-This package provides extensible shared config of JavaScript rules.
+This package provides extensible shared config of JavaScript, React and React Native rules.
 
-## Installation 
+## Installation
 
 With NPM
 ```
@@ -17,9 +17,9 @@ With Yarn
 yarn add eslint-config-jungsoft -D
 ```
 
-## Usage 
+## Usage
 
-Extending the ``eslint-config-jungsoft`` on a eslint config file 
+Extending the ``eslint-config-jungsoft`` on a eslint config file
 
 ```
 module.exports = {
@@ -28,7 +28,7 @@ module.exports = {
   ],
 ```
 
-And you can also override/add rules according to your needs 
+And you can also override/add rules according to your needs
 
 ```
 module.exports = {
