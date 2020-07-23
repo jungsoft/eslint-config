@@ -1,9 +1,8 @@
-const main = require("./index")
-
 module.exports = {
   extends: [
-    main,
+    "./index",
     "plugin:react-hooks/recommended",
+    "airbnb",
   ],
   env: {
     browser: true,
@@ -50,5 +49,5 @@ module.exports = {
     ],
     "react/prefer-stateless-function": [2, { ignorePureComponents: false }],
     "jsx-a11y/media-has-caption": "off",
-  }
-}
+  },
+};
