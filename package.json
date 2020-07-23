@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungsoft/eslint-config-jungsoft.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "jungsoft"
+  ],
+  "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react-hooks": "^4.0.8"
   }
 }
