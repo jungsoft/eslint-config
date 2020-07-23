@@ -4,4 +4,42 @@
 
 This package provides extensible shared config of JavaScript rules.
 
+## Installation 
 
+With NPM
+```
+npm install --save-dev eslint-config-jungsoft
+```
+
+With Yarn
+
+```
+yarn add eslint-config-jungsoft -D
+```
+
+## Usage 
+
+Extending the ``eslint-config-jungsoft`` on a eslint config file 
+
+```
+module.exports = {
+  extends: [
+    "jungsoft",
+  ],
+```
+
+And you also can override/add rules according to your needs 
+
+```
+module.exports = {
+  extends: [
+    "jungsoft",
+  ],
+  rules: {
+    "react/prop-types": 0,
+    "jsx-a11y/anchor-is-valid": ["error", {
+      components: ["Link"],
+      specialLink: ["to"],
+    }],
+  }
+```
