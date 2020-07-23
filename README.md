@@ -1,4 +1,4 @@
-<img src="logo" width="300px"/>
+<img src=".github/docs/logo.png" width="300px"/>
 
 # Eslint Config Jungsoft
 
