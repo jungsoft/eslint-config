@@ -1,9 +1,11 @@
 module.exports = {
+
   /**
    * React plugin rules
    * @see https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
    */
   rules: {
+
     /**
      * Enforce stateless React Components to be written as a pure function
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md

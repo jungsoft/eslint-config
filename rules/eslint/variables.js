@@ -1,11 +1,13 @@
 const isCI = process.env.CI;
 
 module.exports = {
+
   /**
    * Variable rules
    * @see http://eslint.org/docs/rules/#variables
    */
   rules: {
+
     /**
      * Disallow unused variables
      * @see http://eslint.org/docs/rules/no-unused-vars

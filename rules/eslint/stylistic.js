@@ -1,4 +1,5 @@
 module.exports = {
+
   /**
    * Stylistic rules
    * @see http://eslint.org/docs/rules/#stylistic-issues

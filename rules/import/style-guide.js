@@ -1,9 +1,11 @@
 module.exports = {
+
   /**
    * Import plugin style guide rules
    * @see https://github.com/benmosher/eslint-plugin-import#rules
    */
   rules: {
+
     /**
      * Prefer a default export if module exports a single name
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md

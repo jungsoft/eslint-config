@@ -1,9 +1,11 @@
 module.exports = {
+
   /**
    * JSX a11y plugin rules
    * @see https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules
    */
   rules: {
+
     /**
      * Enforce all anchors are valid, navigable elements
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md

@@ -1,9 +1,11 @@
 module.exports = {
+
   /**
    * Import plugin helpful warning rules
    * @see https://github.com/benmosher/eslint-plugin-import#rules
    */
   rules: {
+
     /**
      * Forbid the use of extraneous packages
      * @see https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
