@@ -2,44 +2,69 @@
 
 # Eslint Config Jungsoft
 
-This package provides extensible shared config of JavaScript, React and React Native rules.
+[![Stars](https://img.shields.io/github/stars/jungsoft/eslint-config?color=1661A5&style=flat-square)](https://github.com/jungsoft/eslint-config/stargazers)
+[![Forks](https://img.shields.io/github/forks/jungsoft/eslint-config?color=%231661A5&style=flat-square)](https://github.com/jungsoft/eslint-config/network/members)
+[![Contributors](https://img.shields.io/github/contributors/jungsoft/eslint-config?color=1661A5&style=flat-square)](https://github.com/jungsoft/eslint-config/graphs/contributors)
+[![NPM](https://img.shields.io/npm/v/eslint-config?color=1661A5&style=flat-square)](https://www.npmjs.com/package/eslint-config)
 
-## Installation
+This package provides extensible shared config of JavaScript, React and React Native rules
 
-With NPM
-```
-npm install --save-dev eslint-config-jungsoft
-```
+# :pushpin: Table of Contents
 
-With Yarn
+* [Installation](#construction_worker-installation)
+* [Usage](#pushpin-usage)
+* [License](#closed_book-license)
 
-```
-yarn add eslint-config-jungsoft -D
-```
+# :construction_worker: Installation
 
-## Usage
-
-Extending the ``eslint-config-jungsoft`` on a eslint config file
+### With Yarn
 
 ```
-module.exports = {
-  extends: [
-    "jungsoft",
-  ],
+yarn add eslint eslint-config-jungsoft -D
+```
+
+### With NPM
+```
+npm install --save-dev eslint eslint-config-jungsoft
+```
+
+## :pushpin: Usage
+
+This package includes the following configurations:
+
+* [`@jungsoft`](./configurations/main.js) – The base rules of the config.
+* [`@canonical/eslint-config/react`](./configurations/react.js) – To be used in addition to "@jungsoft" configuration by projects that use [React](https://facebook.github.io/react/).
+
+Example:
+
+```json
+{
+  "extends": [
+    "@jungsoft",
+    "@jungsoft/eslint-config/react"
+  ]
+}
 ```
 
 And you can also override/add rules according to your needs
 
 ```
-module.exports = {
+{
   extends: [
-    "jungsoft",
+    "@jungsoft",
   ],
   rules: {
-    "react/prop-types": 0,
-    "jsx-a11y/anchor-is-valid": ["error", {
+    "react/prop-types": 1,
+    "jsx-a11y/anchor-is-valid": ["warn", {
       components: ["Link"],
       specialLink: ["to"],
     }],
   }
+}
 ```
+
+# :closed_book: License
+
+This project is under the [MIT license](https://github.com/jungsoft/eslint-config/master/LICENSE).
+
+Made with love by [Laura Beatris](https://github.com/LauraBeatris) 💜🚀
