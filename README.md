@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/jungsoft/eslint-config?color=1661A5&style=flat-square)](https://github.com/jungsoft/eslint-config/stargazers)
 [![Forks](https://img.shields.io/github/forks/jungsoft/eslint-config?color=%231661A5&style=flat-square)](https://github.com/jungsoft/eslint-config/network/members)
 [![Contributors](https://img.shields.io/github/contributors/jungsoft/eslint-config?color=1661A5&style=flat-square)](https://github.com/jungsoft/eslint-config/graphs/contributors)
-[![NPM](https://img.shields.io/npm/v/eslint-config?color=1661A5&style=flat-square)](https://www.npmjs.com/package/@jungsoft/eslint-config)
+[![NPM](https://img.shields.io/npm/v/@jungsoft/eslint-config?color=1661A5&style=flat-square)](https://www.npmjs.com/package/@jungsoft/eslint-config)
 
 This package provides extensible shared config of JavaScript, React and React Native rules
 
