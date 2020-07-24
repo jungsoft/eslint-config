@@ -7,6 +7,9 @@ module.exports = {
   env: {
     es6: true
   },
+  plugins: [
+    'import'
+  ],
   extends: [
     // ESLint Base Rules
     '../rules/eslint/stylistic',
