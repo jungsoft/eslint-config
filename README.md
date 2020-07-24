@@ -20,12 +20,12 @@ This package provides extensible shared config of JavaScript, React and React Na
 ### With Yarn
 
 ```
-yarn add eslint eslint-config-jungsoft -D
+yarn add eslint @jungsoft/eslint-config -D
 ```
 
 ### With NPM
 ```
-npm install --save-dev eslint eslint-config-jungsoft
+npm install --save-dev eslint @jungsoft/eslint-config
 ```
 
 ## :pushpin: Usage
