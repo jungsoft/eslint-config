@@ -33,8 +33,8 @@ npm install --save-dev eslint @jungsoft/eslint-config
 This package includes the following configurations:
 
 * [`@jungsoft`](./configurations/main.js) – The base rules of the config.
-* [`@jungsoft/eslint-config/react`](./configurations/react.js) – To be used in addition to ``@jungsoft`` configuration by projects that use [React](https://facebook.github.io/react/).
-* [`@jungsoft/eslint-config/react-native`](./configurations/react-native.js) – To be used in addition to ``@jungsoft`` configuration by projects that use [React Native](https://reactnative.dev/).
+* [`@jungsoft/eslint-config/react`](./configurations/react.js) – To be used by projects that use [React](https://facebook.github.io/react/).
+* [`@jungsoft/eslint-config/react-native`](./configurations/react-native.js) – To be used by projects that use [React Native](https://reactnative.dev/).
 
 Example:
 
