@@ -1,5 +1,3 @@
-const isCI = process.env.CI;
-
 module.exports = {
 
   /**
@@ -12,7 +10,10 @@ module.exports = {
      * Disallow unused variables
      * @see http://eslint.org/docs/rules/no-unused-vars
      */
-    'no-unused-vars': isCI ? ["error", { argsIgnorePattern: "^_" }] : 1,
+    'no-unused-vars': ["error", {
+      argsIgnorePattern: "^_",
+      varsIgnorePattern: "^_",
+    }],
 
     /**
      * Enforce variables to be declared
