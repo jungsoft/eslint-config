@@ -31,7 +31,7 @@ module.exports = {
      * Enforces that <audio> and <video> elements must have a <track> for captions
      * @see https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/media-has-caption.md
      */
-    'jsx-a11y/media-has-caption': 'off',
+    "jsx-a11y/media-has-caption": 0,
 
     /**
      * Enforce non-interactive elements have no interactive handlers
