@@ -1,1 +1,1 @@
-module.exports = require("./configurations/index.js");
+module.exports = require("./configurations/main.js");

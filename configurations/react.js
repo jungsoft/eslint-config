@@ -1,12 +1,15 @@
+const rules = [
+  "../index",
+  '../rules/react/react',
+  '../rules/react/jsx',
+  '../rules/jsx-a11y'
+].map(require.resolve)
+
 module.exports = {
   extends: [
-    "./index",
     "plugin:react-hooks/recommended",
     "airbnb",
-
-    './rules/react/react',
-    './rules/react/jsx',
-    './rules/react/jsx-a11y'
+    ...rules
   ],
   env: {
     browser: true,
