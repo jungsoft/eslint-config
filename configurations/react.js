@@ -7,27 +7,17 @@ const rules = [
 
 module.exports = {
   extends: [
-    "plugin:react-hooks/recommended",
     "airbnb",
+    "plugin:react-hooks/recommended",
     ...rules
   ],
   env: {
     browser: true,
+    es6: true
   },
   globals: {
     localStorage: true,
     window: true,
     document: true,
-  },
-  settings: {
-    "import/resolver": {
-      node: {
-        paths: ["src"],
-        extensions: [
-          ".js",
-          ".jsx",
-        ],
-      },
-    },
   }
 };
