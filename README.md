@@ -34,14 +34,33 @@ This package includes the following configurations:
 
 * [`@jungsoft`](./configurations/main.js) – The base rules of the config.
 * [`@jungsoft/eslint-config/react`](./configurations/react.js) – To be used in addition to ``@jungsoft`` configuration by projects that use [React](https://facebook.github.io/react/).
+* [`@jungsoft/eslint-config/react-native`](./configurations/react-native.js) – To be used in addition to ``@jungsoft`` configuration by projects that use [React Native](https://reactnative.dev/).
 
 Example:
 
+Shareable config for JavaScript projects
 ```json
 {
   "extends": [
-    "@jungsoft",
-    "@jungsoft/eslint-config/react"
+    "@jungsoft" 
+  ]
+}
+```
+
+Shareable config for React projects
+```json
+{
+  "extends": [
+    "@jungsoft/eslint-config/react" 
+  ]
+}
+```
+
+Shareable config for React Native projects
+```json
+{
+  "extends": [
+    "@jungsoft/eslint-config/react-native" 
   ]
 }
 ```
@@ -53,6 +72,7 @@ And you can also override/add rules according to your needs
   extends: [
     "@jungsoft",
   ],
+  plugins: ['react', 'jsx-a11y'],
   rules: {
     "react/prop-types": 1,
     "jsx-a11y/anchor-is-valid": ["warn", {
