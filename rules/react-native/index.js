@@ -29,11 +29,5 @@ module.exports = {
      * @see https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/no-inline-styles.md
      */
     "react-native/no-inline-styles": 2,
-
-    /**
-     * Detect raw text outside of Text component
-     * @see https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/no-raw-text.md
-     */
-    "react-native/no-raw-text": 2,
   }
 }
