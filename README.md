@@ -33,6 +33,7 @@ npm install --save-dev eslint @jungsoft/eslint-config
 This package includes the following configurations:
 
 * [`@jungsoft`](./configurations/main.js) – The base rules of the config.
+* [`@jungsoft`](./configurations/typescript.js) – The [TypeScript](https://www.typescriptlang.org/) config.
 * [`@jungsoft/eslint-config/react`](./configurations/react.js) – Extends the base jungsoft configuration by adding [React](https://facebook.github.io/react/) related rules.
 * [`@jungsoft/eslint-config/react-native`](./configurations/react-native.js) – Extends the base jungsoft configuration by adding [React Native](https://reactnative.dev/) related rules.
 
@@ -43,6 +44,16 @@ Shareable config for JavaScript projects
 {
   "extends": [
     "@jungsoft" 
+  ]
+}
+```
+
+Shareable config for TypeScript projects
+```json
+{
+  "extends": [
+    "@jungsoft",
+    "@jungsoft/eslint-config/typescript"
   ]
 }
 ```
