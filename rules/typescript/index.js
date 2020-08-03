@@ -25,6 +25,12 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": [2, {
       argsIgnorePattern: "^_",
       varsIgnorePattern: "^_",
-    }],
+    }],    
+    
+     /**
+     * Require a specific member delimiter style for interfaces and type literals	
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md
+     */
+    "@typescript-eslint/member-delimiter-style": 2
   }
 }
