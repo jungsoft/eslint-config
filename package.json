@@ -1,6 +1,6 @@
 {
   "name": "@jungsoft/eslint-config",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Extensible shared config of JavaScript, ReactJS and React Native rules",
   "license": "MIT",
   "author": "Laura Beatris @ Jungsoft",
@@ -18,8 +18,7 @@
     "bump": "npm version",
     "update-patch": "npm version patch",
     "update-minor": "npm version minor",
-    "update-major": "npm version major",
-    "prepare": "install-peers"
+    "update-major": "npm version major"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.7.0",
@@ -35,17 +34,7 @@
     "eslint-plugin-react-native": "^3.8.1",
     "eslint-plugin-react-native-globals": "^0.1.2"
   },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "eslint": "7.6.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "latest",
-    "eslint-plugin-react-native": "^3.8.1",
-    "eslint-plugin-react-native-globals": "^0.1.2"
-  },
-  "devDependencies": {
-    "install-peers-cli": "^2.2.0"
+  "publishConfig": {
+    "access": "public"
   }
 }
