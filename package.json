@@ -18,8 +18,7 @@
     "bump": "npm version",
     "update-patch": "npm version patch",
     "update-minor": "npm version minor",
-    "update-major": "npm version major",
-    "prepare": "install-peers"
+    "update-major": "npm version major"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.7.0",
