@@ -20,13 +20,15 @@ This package provides extensible shared config of JavaScript, React and React Na
 ### With Yarn
 
 ```
-yarn add eslint @jungsoft/eslint-config -D
+npx install-peerdeps --dev @jungsoft/eslint-config --yarn
 ```
 
 ### With NPM
 ```
-npm install --save-dev eslint @jungsoft/eslint-config
+npx install-peerdeps --dev @jungsoft/eslint-config 
 ```
+
+And remove the peer-dependencies according to the shareable config that you're using, for instance, the typescript config won't need the ``eslint-import-resolver-typescript`` dependency 
 
 ## :pushpin: Usage
 
