@@ -1,6 +1,6 @@
 {
   "name": "@jungsoft/eslint-config",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "Extensible shared config of JavaScript, ReactJS and React Native rules",
   "license": "MIT",
   "author": "Laura Beatris @ Jungsoft",
