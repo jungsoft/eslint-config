@@ -52,5 +52,11 @@ module.exports = {
      * @fixable
      */
     "space-before-function-paren": 0,
+
+    /**
+     * Rule to ensure newline per method call when chaining calls
+     * @see https://eslint.org/docs/rules/newline-per-chained-call
+     */
+    "newline-per-chained-call": ["error", { ignoreChainWithDepth: 1 }],
   }
 }
