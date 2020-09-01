@@ -29,8 +29,8 @@ module.exports = {
 
     /**
      * Disallow unused expressions
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-expressions.md
      */
-    'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': [2],
 
      /**

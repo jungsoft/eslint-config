@@ -11,5 +11,12 @@ module.exports = {
      * @see http://eslint.org/docs/rules/radix
      */
     radix: [2, "as-needed"],
+
+
+    /**
+     * Disallow unused expressions
+     * @see https://eslint.org/docs/rules/no-unused-expressions
+     */
+    'no-unused-expressions': 0,
   }
 }
