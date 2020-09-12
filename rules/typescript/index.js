@@ -34,10 +34,18 @@ module.exports = {
     'no-unused-expressions': 0,
     '@typescript-eslint/no-unused-expressions': [2],
 
-     /**
+    /**
      * Require a specific member delimiter style for interfaces and type literals
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md
      */
-    "@typescript-eslint/member-delimiter-style": 2
+    "@typescript-eslint/member-delimiter-style": 2,
+
+    /**
+     * Disable shadow
+     * @see https://github.com/typescript-eslint/typescript-eslint/issues/325
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+     */
+    "no-shadow": 0,
+    "@typescript-eslint/no-shadow": ["error"],
   }
 }
