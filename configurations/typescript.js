@@ -13,8 +13,8 @@ module.exports = {
     sourceType: "module"
   },
   extends: [
-    ...rules,
     "plugin:@typescript-eslint/recommended",
+    ...rules,
   ],
   plugins: [
     "@typescript-eslint",
