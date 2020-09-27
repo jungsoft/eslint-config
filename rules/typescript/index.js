@@ -41,11 +41,20 @@ module.exports = {
     "@typescript-eslint/member-delimiter-style": 2,
 
     /**
-     * Disallow shadow
+     * Disallow variable declarations from shadowing variables declared in the outer scope
      * @see https://github.com/typescript-eslint/typescript-eslint/issues/325
+     * @see https://eslint.org/docs/rules/no-shadow
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
      */
     "no-shadow": 0,
-    "@typescript-eslint/no-shadow": ["error"]
+    "@typescript-eslint/no-shadow": ["error"],
+
+    /**
+     * Disallow the use of variables before they are defined
+     * @see https://eslint.org/docs/rules/no-use-before-define
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
+     */
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   }
 }
