@@ -45,8 +45,8 @@ module.exports = {
      * @see https://github.com/typescript-eslint/typescript-eslint/issues/325
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
      */
-    "no-shadow": 0,
-    "@typescript-eslint/no-shadow": ["error"],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"]
 
     /**
      * Disallow use before define
