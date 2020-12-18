@@ -25,10 +25,10 @@ npx install-peerdeps --dev @jungsoft/eslint-config --yarn
 
 ### With NPM
 ```
-npx install-peerdeps --dev @jungsoft/eslint-config 
+npx install-peerdeps --dev @jungsoft/eslint-config
 ```
 
-And remove the peer-dependencies according to the shareable config that you're using, for instance, the typescript config won't need the ``eslint-import-resolver-typescript`` dependency 
+And remove the peer-dependencies according to the shareable config that you're using, for instance, the typescript config won't need the ``eslint-import-resolver-typescript`` dependency
 
 ## :pushpin: Usage
 
@@ -45,7 +45,7 @@ Shareable config for JavaScript projects
 ```json
 {
   "extends": [
-    "@jungsoft" 
+    "@jungsoft"
   ]
 }
 ```
@@ -64,7 +64,7 @@ Shareable config for React projects
 ```json
 {
   "extends": [
-    "@jungsoft/eslint-config/react" 
+    "@jungsoft/eslint-config/react"
   ]
 }
 ```
@@ -73,7 +73,7 @@ Shareable config for React Native projects
 ```json
 {
   "extends": [
-    "@jungsoft/eslint-config/react-native" 
+    "@jungsoft/eslint-config/react-native"
   ]
 }
 ```
@@ -100,4 +100,4 @@ And you can also override/add rules according to your needs
 
 This project is under the [MIT license](https://github.com/jungsoft/eslint-config/master/LICENSE).
 
-Made with love by [Laura Beatris](https://github.com/LauraBeatris) 💜🚀
+Made with love by [Laura Beatris](https://github.com/LauraBeatris) and contributors at [Jungsoft](https://jungsoft.io/) 💜🚀
