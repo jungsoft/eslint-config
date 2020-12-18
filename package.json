@@ -1,6 +1,6 @@
 {
   "name": "@jungsoft/eslint-config",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Extensible shared config of JavaScript, ReactJS and React Native rules",
   "license": "MIT",
   "author": "Jungsoft",
